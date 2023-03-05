@@ -1,4 +1,8 @@
 spring:
+  application:
+    name: betterreads
+  main.allow-circular-references: true
+  
   security:
     oauth2:
       client:
@@ -6,3 +10,31 @@ spring:
           github:
             client-id: Iv1.f29c70f1dba565dd
             client-secret: 3aa2cbfb0e536dded66be12fe81a2c1178d69871
+  data:
+    cassandra:
+        keyspace-name: main
+        username: xWldnJakZnudcFxMxvChHnnm
+        password: _lFSF6ZjZi0b-z2rTgSMffdtBWt9j.pUjTX_AYW4gIStDLypOlZ_L0993KAL0.l9s,ZyS.Bb6pZ7CTYXNuGXdcNcIIhlwpZC5xq2ZNy-a-MPZbr9U4dMmML20yO.-E8x
+        schema-action: create-if-not-exists
+        request:
+            timeout: 10s
+        connection:
+            connect-timeout: 10s
+            init-query-timeout: 10s
+
+datastax.astra:
+    secure-connect-bundle: secure-connect.zip
+
+astra.db:
+    id: 01167b57-29d7-41cc-981f-2bfe861acdf2-1
+    region: asia-south1
+    keyspace: main
+    application.token:  AstraCS:xWldnJakZnudcFxMxvChHnnm:53df5d13d9bf272bb581470d1f77f758824ee2f30238d89bf0d3c7a812c0649f
+
+
+
+datadump.location:
+    author: C:\Users\akmap\Documents\ol_dump_authors_2022-11-30.txt
+    works: C:\Users\akmap\Documents\ol_dump_works_2022-11-30.txt
+
+    
