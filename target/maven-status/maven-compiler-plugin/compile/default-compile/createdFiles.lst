@@ -1,9 +1,0 @@
-io\betterreads\entity\SearchResultBook.class
-io\betterreads\BetterReadsApp.class
-io\betterreads\Repository\BookRepository.class
-io\betterreads\Controller\SearchController.class
-io\betterreads\entity\Book.class
-io\betterreads\SecurityAdapter.class
-io\betterreads\Controller\BookController.class
-io\betterreads\entity\SearchResult.class
-io\betterreads\connection\DataStaxAstraProperties.class
