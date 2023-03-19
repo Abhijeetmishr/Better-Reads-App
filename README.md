@@ -1,12 +1,12 @@
-# spring-github-login-starter
-Starter Spring Boot project for OAuth login with GitHub
+# Better Reads
+  Control your reading habit. Track the books you read and fuel your reading.
+  
+1. Login Page
+![image](https://user-images.githubusercontent.com/43075376/226199730-bfd408ca-2f77-4cd1-948e-8635fe80acae.png)
 
-Simple starter for a Spring Boot Web application with GitHub OAuth support.
+2. Home
+![image](https://user-images.githubusercontent.com/43075376/226199838-c5500e64-bff2-4936-a15d-c01c863b4619.png)
 
-Steps:
-1. Create a GitHub App and get the Client ID and Client Secret values. (Specify callback URL as `http://localhost:8080/login/oauth2/code/github` for development, uncheck Web hooks)
-2. Add those values in `application.yml`
-3. Run the Spring Boot App. You should be able to login with GitHub
+3. Search Book By Title - localhost:8080/search?query=java
+![image](https://user-images.githubusercontent.com/43075376/226200018-16e9084a-5534-4179-bc73-3a51016fb58a.png)
 
-This is a super minimal app. Post login, you will be redirected back to the login page, but you can validate the authorized principal is created by accessing the `/user` API. 
-# Better-Reads-App
